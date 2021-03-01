@@ -2,18 +2,35 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Facundo's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
-  <body>
+  <body style="background-color:Gainsboro;">
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+      <h1>Facundo's Portfolio</h1>
+      <h2>Welcome to my portfolio.</h2>
+      <p>My full name is Facundo Munoz. I was born on may 23rd 2000 in Montevideo Uruguay, but I was raised in Asuncion, Paraguay. I am currently a sophomore studying computer science at the University of Notre Dame, with a minor in innovation and entrepreneurship as well as a minor in engineering corporate practice. I love programming and I also aspire to be an entrepreneur in the future! Keep reading to learn more about me...</p>
+      <div class="image-main">
+        <img src="images/CD copia (1).JPG" />
+      </div>
+      <h2>My Family and friends:</h2>
+      <p>Click <a href="images.html">here</a> to see pictures of my family and friends!</p>
+      <h2>Some of my projects and experiences:</h2>
+      <p>My projects and experiences...</p>
+      <ul>
+      	<li>One of my first experiences was working on an undergraduate research project during the summer after my freshman year. I worked on building an android app with Java and Android Studio that would constantly track and store the location of the user to allow him to check his wherabouts and his frequently visited places in the past to aid with contact tracing during the pandemic. I worked on everything from the ui of the app, to the SQLite databases and developing different classes as well as data gathering and data processing algorithms.</li>
+	<li>Another great experience that I also had during the summer was a part-time internship with a local game development company. I worked on a new game that was being developed, both in terms of the participating in the conception of the idea and the planning, and later starting the development of the game's ui using Unity and C#. I also learned a lot about how a software company works and how big projects are worked on by multiple engineers using git and other resources like trello to keep track of different taks and bugs.</li>
+	<li>One of my favorite projects that I worked was an app that I made on my own as a personal project. I used Flutter to make a group chat app for students to find study groups during covid. People could create groups for specific classes or assignments that would then show up to other students for them to join. That way you could find other peole that have the same class or assignment as you and help each other. This was a great learning experience for me and very fun to do.</li>
+      </ul>
+      <p>For more about my career and my projects check out my Github and my Linkedin:</p>
+      <ul>
+      	<li><a href="https://github.com/facumunoz">Github</a></li>
+	<li><a href="https://www.linkedin.com/in/facundo-mu%C3%B1oz/">Linkedin</a></li>
+      </ul>
+      <p>Click here to get a random fact about me:</p>
+      <button onclick="addRandomGreeting()">Facts</button>
+      <div id="fact-container"></div>
     </div>
   </body>
 </html>
