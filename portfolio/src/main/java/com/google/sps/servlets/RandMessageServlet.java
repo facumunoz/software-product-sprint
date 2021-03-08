@@ -19,7 +19,7 @@ public class RandMessageServlet extends HttpServlet {
     ArrayList<String> messages = new ArrayList<String>();
     messages.add("I love playing soccer!");
     messages.add("Huge Juice WRLD fan!");
-    messages.add("Suits is my favorite tv show！");
+    messages.add("Suits is my favorite tv show");
     messages.add("Pizza is my favorite food!");
 
     Gson gson = new Gson();
