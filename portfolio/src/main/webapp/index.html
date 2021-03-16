@@ -28,9 +28,16 @@
       	<li><a href="https://github.com/facumunoz">Github</a></li>
 	<li><a href="https://www.linkedin.com/in/facundo-mu%C3%B1oz/">Linkedin</a></li>
       </ul>
-      <p>Click here to get a random fact about me:</p>
-      <button onclick="addRandomGreeting()">Facts</button>
-      <div id="fact-container"></div>
+      <p>Click here to get a message (testing fetch()):</p>
+      <button onclick="fetchMessage()">Get Message</button>
+      <p id="message-container"></p>
+      <p>Thank you for your interest! If you have any questions or would like to chat, please leave a question or a message on the form below...</p>
+      <form action="/form-handler" method="POST">
+        <p>Enter your question or message:</p>
+        <textarea name="text-input"></textarea>
+        <br/>
+        <input type="submit" />
+    </form>
     </div>
   </body>
 </html>
